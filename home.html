@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=1111; user-scalable=0;" />
+<style>
+    
+    #wrapper {
+        text-align: left;
+        margin: 0 auto;
+        max-width: 1111px;
+        padding: 0em;
+        font-family: serif;
+    }
+    }
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    html {
+        background: #FFFFFF;
+        font-size: 18px;
+    }
+    button {
+        border-color: transparent;
+        font-size: 20px;
+        background-color: transparent;
+        color: #FFFFFF;
+    }
+    #nav {
+        margin: 2em 0 0;
+        font-family: fantasy;
+    }
+    #topimg {
+        margin: 2em 0 2em 0;
+        border: 3px solid #000000;
+        padding-right: 100px;
+        justify-content: center;
+        border-style: hidden;
+        background-color: #758E4F;
+        max-height: 300px;
+        color: #FFFFFF;
+    }
+    div#inside {
+        width: 555.5px;
+        float: left;
+        position: static;
+    }
+    strong {
+        font-size: 25px;
+        font-family: fantasy;
+        font-weight: 100;
+    }
+    @keyframes colorize {
+        0% {
+            -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+        }
+        100% {
+            -webkit-filter: grayscale(0%);
+            filter: grayscale(0%);
+        }
+    }
+</style>
+    <title>The Jaguar ‣ Home</title>
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="nav">
+            <nav>
+            <a href="./home.html" style="color:#33658A">HOME</a> <a style="color: #F6AE2D">|</a>
+            <a href="./anatomy.html" style="color:#33658A">ANATOMY</a> <a style="color: #F6AE2D">|</a>
+            <a href="./behavior.html" style="color:#33658A">BEHAVIOR</a> <a style="color: #F6AE2D">|</a>
+            <a href="./ecology.html" style="color:#33658A">ECOLOGY</a> <a style="color: #F6AE2D">|</a>
+            <a href="./conservation.html" style="color:#33658A">CONSERVATION</a>
+            </nav>
+        </div>
+        <div id="topimg">
+        <img src="https://images.unsplash.com/photo-1562525339-b18bead376aa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" height="300px" style="animation: colorize 2s cubic-bezier(0, .3, .6, .9) 1;">
+              <div style="padding: 1em; position: absolute; top:100px; left: 600px; max-width: 555.5px; overflow: auto; max-height: 250px">
+                  <h1 style="font-weight: 100; font-family: fantasy;">The Jaguar</h1>
+                  <strong>Classification</strong><br>
+                  Animalia > 
+                  <button onclick="classtoggle()">...</button>
+                  <p id="class" style="display: none;">
+                      Chordata > Mammalia > Carnivora > Feliformia > Felidae > Pantherinae 
+                  </p>
+                  > Panthera > P. onca
+                  <br><br>
+                  <strong>Status</strong><br>
+                  <div style="color: #F6AE2D; padding: 0;">
+                      Near Threatened
+                  </div>
+            </div>
+                  <script>
+                      function classtoggle() {
+                          var x = document.getElementById("class");
+                          if (x.style.display === "none") {
+                              x.style.display = "block";
+                          } else {
+                              x.style.display = "none";
+                          }
+                      }
+                  </script>
+        </div>
+            
+            <h1 style="padding: 1em 0 0 0; font-family: fantasy; font-weight:100; color: #33658A; border-top: 1px solid #F6AE2D;">ABOUT</h1>
+            <h2 style="padding: 0; font-family: fantasy; font-weight:100; color: #86BBD8;">Meet the Jaguar</h2>
+        <p style="padding: 1em; justify-content: center;">
+            It's a lovely occasion to meet the jaguar! This website is dedicated to spreading awareness of this species. Most people are unlikely to come into contact with these magnificent creatures in their daily lives, therefore they may be unaware of the significance of understanding them. This website aims to offer an understanding of jaguars' lives and the importance of them.
+        </p>
+        <h1 style="border-top: 1px solid #F6AE2D; padding: 1em 0 0 0; font-family: fantasy; font-weight:100; color: #33658A;">FAQ</h1>
+        <h2 style="padding: 0; font-family: fantasy; font-weight:100; color: #86BBD8;">Why is learning about Jaguars important?</h2>
+            <p style="padding: 1em; justify-content: center;">Learning about this topic, as well as other issues that affect jaguars, has a significant influence on the lives of these animals! Conservation, not just of these creatures, but of many species, as well as the maintenance of ecological equilibrium, is dependent on public knowledge.</p>
+        <h2 style="padding: 0; font-family: fantasy; font-weight:100; color: #86BBD8;">Aren't Jaguars and Leopards the same?</h2>
+        <p style="padding: 1em; justify-content: center;">Jaguars and Leopards are highly different cats! Jaguars can be identified by their stocky build and large spots. Leopards on the other hand are much slimmer with smaller spots. Where they call home is quite different as well.</p>
+        <h2 style="padding: 0; font-family: fantasy; font-weight:100; color: #86BBD8;">How can we help?</h2>
+         <p style="padding: 1em; justify-content: center;">We can protect these species' survival by studying more about them and strengthening wild management in critical areas. It is imperative to advocate for them and sponsor efforts that reduce conflict with their habitats.</p>
+        <p style="border-bottom: 1px solid #F6AE2D; font-size: 13px">
+            Jaguar photo by Joshua J. Cotten on Unsplash
+        </p>
+        <center>
+        <div id="nav" style="font-size: 13px;">
+            <nav>
+            <a href="./home.html" style="color:#758E4F">HOME</a> <a style="color: #F6AE2D">～</a>
+            <a href="./anatomy.html" style="color:#758E4F">ANATOMY</a> <a style="color: #F6AE2D">～</a>
+            <a href="./behavior.html" style="color:#758E4F">BEHAVIOR</a> <a style="color: #F6AE2D">～</a>
+            <a href="./ecology.html" style="color:#758E4F">ECOLOGY</a> <a style="color: #F6AE2D">～</a>
+            <a href="./conservation.html" style="color:#758E4F">CONSERVATION</a>
+            </nav>
+        </div>
+        </center>
+    </div>
+</body>
+</html>
