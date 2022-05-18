@@ -4,7 +4,19 @@
     
 <meta name="viewport" content="width=1111; user-scalable=0;" />
 <style>
-    
+     .mobileShow {display: none;}
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){ 
+      .mobileShow {display: inline;}
+  }
+    .mobileHide { display: inline; }
+
+  @media only screen
+    and (min-device-width : 320px)
+    and (max-device-width : 480px){
+     .mobileHide { display: none;}
+  }
     #wrapper {
         text-align: left;
         margin: 0 auto;
@@ -57,6 +69,7 @@
 
 <body>
     <div id="wrapper">
+         <div class="mobileHide">
         <div id="nav">
             <nav>
             <a href="./index.html" style="color:#33658A">HOME</a> <a style="color: #F6AE2D">|</a>
@@ -66,7 +79,24 @@
             <a href="./conservation.html" style="color:#33658A">CONSERVATION</a>
             </nav>
         </div>
+        </div>
+        <div class="mobileShow">
+<div id="nav" style="font-size: 40px;">
+            <nav>
+            <a href="./index.html" style="color:#33658A">HOME</a> <a style="color: #F6AE2D">|</a>
+            <a href="./anatomy.html" style="color:#33658A">ANATOMY</a> <a style="color: #F6AE2D">|</a>
+            <a href="./behavior.html" style="color:#33658A">BEHAVIOR</a> <a style="color: #F6AE2D">|</a>
+            <a href="./ecology.html" style="color:#33658A">ECOLOGY</a> <a style="color: #F6AE2D">|</a>
+            <a href="./conservation.html" style="color:#33658A">CONSERVATION</a>
+            </nav>
+        </div>
+        </div>
+        <div class="mobileHide">
              <img src="https://images.unsplash.com/photo-1541893321-dcc3e4dcb6dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" height="300px;" style="float: right; margin: 1em; padding: 1em;">
+        </div>
+        <div class="mobileShow">
+            <img src="https://images.unsplash.com/photo-1541893321-dcc3e4dcb6dc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" height="500px;" style="float: right; margin: 1em; padding: 1em;">
+        </div>
         <p style="padding: 1em; padding-left: 0;">Despite jaguars' habit of avoiding humans, there is a lot of conflict between humans and wildlife. The habitat of the jaguar is shrinking as more people move into the world. This is a major concern for them since it not only contributes to habitat degradation but also fragments habitat and exposes them to poaching prospects.</p>
          <p style="padding: 1em; padding-left: 0;">Jaguars are classified as near-threatened on the IUCN red list, one step away from endangered. However, they do confront a variety of hazards, many of which arise from human strife. Their dwellings are being demolished at an alarming rate, placing a strain on the surviving jaguar population.</p> 
         <p style="padding: 1em; padding-left: 0;">They are included in the appendix 1, which means that international commerce of jaguars and body parts is forbidden. There are currently a number of initiatives in place to aid in jaguar conservation, including JCU (jaguar conservation units), which are 18 different ranges across jaguar habitats that have been determined to be long-term viable areas for jaguars to live and are monitored by scientists to ensure their healthy living. </p> 
@@ -75,6 +105,7 @@
         <p style="border-bottom: 1px solid #F6AE2D; font-size: 13px">
             Jaguar photo by Uriel Soberanes on Unsplash
         </p>
+        <div class="mobileHide">
         <center>
         <div id="nav" style="font-size: 13px;">
             <nav>
@@ -86,6 +117,20 @@
             </nav>
         </div>
         </center>
+    </div>
+         <div class="mobileShow">
+             <center>
+        <div id="nav" style="font-size: 40px;">
+            <nav>
+            <a href="./index.html" style="color:#758E4F">HOME</a> <a style="color: #F6AE2D">～</a>
+            <a href="./anatomy.html" style="color:#758E4F">ANATOMY</a> <a style="color: #F6AE2D">～</a>
+            <a href="./behavior.html" style="color:#758E4F">BEHAVIOR</a> <a style="color: #F6AE2D">～</a>
+            <a href="./ecology.html" style="color:#758E4F">ECOLOGY</a> <a style="color: #F6AE2D">～</a>
+            <a href="./conservation.html" style="color:#758E4F">CONSERVATION</a>
+            </nav>
+        </div>
+        </center>
+        </div>
     </div>
 </body>
 </html>
